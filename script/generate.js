@@ -46,7 +46,6 @@ function copyFile(source, target) {
   }
   const fileState = fs.statSync(source);
   if (fileState.isDirectory()) {
-    console.log(source);
     fs.mkdirSync(target, { recursive: true });
     const itemList = fs.readdirSync(source);
     itemList.forEach((item) => {
