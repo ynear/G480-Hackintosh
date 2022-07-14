@@ -1,7 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const sourceDir =
-  "/Users/near/Documents/workspace/zIndex/OpenCore-0.6.3-RELEASE";
+const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-RELEASE";
 const targetDir = "/Users/near/Desktop";
 const isDebugger = false;
 
