@@ -22,6 +22,7 @@ const noChangeList = [
   "/EFI/OC/ACPI/SSDT-EC-LAPTOP.aml",
   "/EFI/OC/ACPI/SSDT-HPET.aml",
   "/EFI/OC/ACPI/SSDT-PNLF.aml",
+  "/EFI/OC/ACPI/SSDT-IMEI.aml",
   "/EFI/OC/Kexts/AppleALC.kext",
   "/EFI/OC/Kexts/AtherosE2200Ethernet.kext",
   "/EFI/OC/Kexts/Lilu.kext",
