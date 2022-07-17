@@ -1,11 +1,12 @@
 const fs = require("fs");
 const path = require("path");
-const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-RELEASE";
+const sourceDir = "/Users/near/Desktop/OpenCore-0.6.3-RELEASE";
 const targetDir = "/Users/near/Desktop";
 const isDebugger = false;
 
 const changeList = [
   "/X64/EFI/BOOT/BOOTx64.efi",
+  "/X64/EFI/OC/Drivers/OpenUsbKbDxe.efi",
   "/X64/EFI/OC/Drivers/OpenRuntime.efi",
   "/X64/EFI/OC/OpenCore.efi",
   "/X64/EFI/OC/Tools/OpenShell.efi",
