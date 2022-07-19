@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
-const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-RELEASE";
+const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-DEBUG";
 const targetDir = "/Users/near/Desktop";
-const isDebugger = false;
+const isDebugger = true;
 
 const changeList = [
   "/X64/EFI/BOOT/BOOTx64.efi",
