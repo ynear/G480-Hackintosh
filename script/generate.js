@@ -1,8 +1,8 @@
 const fs = require("fs");
 const path = require("path");
-const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-DEBUG";
+const sourceDir = "/Users/near/Desktop/OpenCore-0.8.2-RELEASE";
 const targetDir = "/Users/near/Desktop";
-const isDebugger = true;
+const isDebugger = false;
 
 const changeList = [
   "/X64/EFI/BOOT/BOOTx64.efi",
@@ -26,7 +26,6 @@ const noChangeList = [
   "/EFI/OC/Kexts/AtherosE2200Ethernet.kext",
   "/EFI/OC/Kexts/Lilu.kext",
   "/EFI/OC/Kexts/SMCBatteryManager.kext",
-  "/EFI/OC/Kexts/SMCLightSensor.kext",
   "/EFI/OC/Kexts/SMCProcessor.kext",
   "/EFI/OC/Kexts/SMCSuperIO.kext",
   "/EFI/OC/Kexts/VirtualSMC.kext",
@@ -73,3 +72,7 @@ noChangeList.forEach((item) => {
   const fileTargetPath = path.join(targetDir, item);
   copyFile(filePath, fileTargetPath);
 });
+
+const configFile = path.join(__dirname, "/../config.plist");
+const configFileTarget = path.join(targetDir, "/EFI/OC/config.plist");
+copyFile(configFile, configFileTarget);
