@@ -27,6 +27,10 @@ Sandy Bridge 10.6.7 - 10.13.6 id: 0x0206A0(M/H)
 
   - Qualcomm Atheros AR9485 Wireless Network Adapte
 
+### 主板
+
+inter HM76
+
 ### SMBIOS
 
 - MacBookAir4,1 Sandy Bridge(M) HD 3000 (11") Mac-C08A6BB70A942AC2 10.7 (11A2063) 10.13.6
