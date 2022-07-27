@@ -17,6 +17,16 @@ Sandy Bridge 10.6.7 - 10.13.6 id: 0x0206A0(M/H)
   - 10.7.x - 10.13.6
   - Requires NVCAP patching
 
+### 网卡
+
+- 有线网卡
+
+  - Atheros AR8162/8166/8168 PCI-E
+
+- 无线网卡
+
+  - Qualcomm Atheros AR9485 Wireless Network Adapte
+
 ### SMBIOS
 
 - MacBookAir4,1 Sandy Bridge(M) HD 3000 (11") Mac-C08A6BB70A942AC2 10.7 (11A2063) 10.13.6
