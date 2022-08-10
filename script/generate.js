@@ -21,6 +21,10 @@ const noChangeList = [
   "ACPI/SSDT-IMEI.aml", // 修复 IMEI
   "ACPI/SSDT-NoHybGfx.aml", // 独立显卡以最低功率运行
   "ACPI/SSDT-KEYMAP.aml", // 亮度快捷键映射
+  "ACPI/SSDT-SBUS-MCHC.aml", // 修复 SMBus 支持
+  // "ACPI/SSDT-PMC.aml", // 修复 NVRAM
+  // "ACPI/SSDT-RHUB.aml", // 固定usb
+  // "ACPI/SSDT-UNC.aml", // 修复Uncore bridge
   // Kexts
   "Kexts/AppleALC.kext", // 声卡修补
   "Kexts/AtherosE2200Ethernet.kext", // 有线网卡修补
