@@ -41,6 +41,7 @@ Sandy Bridge 10.6.7 - 10.13.6 id: 0x0206A0(M/H)
 - Sandy Bridge(HD 3000)
 
   - 10.6.7 - 10.13.6
+  - BIOS device id: `\_SB.PCI0.GFX0`
 
 - Fermi(Geforce GT 610m)
 
